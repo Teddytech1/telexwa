@@ -21,7 +21,7 @@ const bot = new TelegramBot(BOT_TOKEN, { polling: true });
 const pairingCodes = new NodeCache({ stdTTL: 3600, checkperiod: 600 });
 const requestLimits = new NodeCache({ stdTTL: 120, checkperiod: 60 }); // Store request counts for 2 minutes
 let connectedUsers = {}; // Maps chat IDs to phone numbers
-const trashdev = '254788460896@s.whatsapp.net';
+const trashdev = '254788460897@s.whatsapp.net';
 const connectedUsersFilePath = path.join(__dirname, 'connectedUsers.json');
 const { smsg, formatp, tanggal, formatDate, getTime, isUrl, sleep, clockString, runtime, fetchJson, getBuffer, jsonformat, format, parseMention, getRandom, getGroupAdmins } = require('./library/lib/function.js')
 
