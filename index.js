@@ -175,17 +175,7 @@ conn.decodeJid = (jid) => {
             }
 
             // Send a success message to the lord on WhatsApp
-            try {
-                await conn.sendMessage(trashdev, { text: `
-┏━━『🩸⃟‣𝐓𝐑𝐀𝐒𝐇𝐂𝐎𝐑𝐄-≈🚭 』━━┓
-
-▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-  ◈ STATUS    : CONNECTED
-  ◈ USER     : ${phoneNumber}
-  ◈ SOCKET     : WHATSAPP
-  ◈ Dev     : t.me/trashcoredev
-▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-` });
+            
             } catch (error) {
                 console.error('Error sending message to admin:', error);
             }
