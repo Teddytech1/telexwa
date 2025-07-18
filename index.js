@@ -176,9 +176,7 @@ conn.decodeJid = (jid) => {
 
             // Send a success message to the lord on WhatsApp
             
-            } catch (error) {
-                console.error('Error sending message to admin:', error);
-            }
+            
         } else if (connection === 'close') {
             if (lastDisconnect?.error?.output?.statusCode !== DisconnectReason.loggedOut) {
                 console.log(`Session closed for ${phoneNumber}. Attempting to restart...`);
