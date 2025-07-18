@@ -7,5 +7,7 @@ This base was created by Trashcore
 
 
 Credition script 
+
+
 `Taira Makino`- Guider
 `Trashcore`-Scripter
