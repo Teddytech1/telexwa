@@ -22,7 +22,8 @@ const Menu = `╭─⊷𝐓𝐑𝐀𝐒𝐇𝐂𝐎𝐑𝐄─
 │ • $
 ╰────────────
 ╭─⊷🏓MEDIA-CMD─
-│ • play                     
+│ • play       
+│ • ytmp4       
 ╰────────────
 ╭─⊷💀BUG-CMD─
 │ • trash                    
